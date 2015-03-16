@@ -1,0 +1,22 @@
+---
+#    FORMAT:
+#       [label]:
+#           url: [location of product]
+#           type: [stash|jira|confluence|crowd]
+#
+stash:
+  url: https://stash.example.com/
+  type: stash
+
+crowd:
+  url: https://crowd.example.com/crowd/console/login.action
+  type: crowd
+
+jira:
+  url: https://jira.example.com/
+  type: jira
+
+confluence:
+  url: https://confluence.example.com/
+  type: confluence
+
